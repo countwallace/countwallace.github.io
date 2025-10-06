@@ -1,0 +1,198 @@
+/*
+	Kelvin Wallace
+	September 16, 2025
+*/
+
+/* css resset */
+body, header, nav, main, footer, h1, div, img, ul
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* styles for body abd images */
+body 
+{
+	background-color: #000;
+} 
+
+img 
+{
+	max-width: 100%;
+	display: block;
+} 
+
+/*Style rules for mobile viewport */
+
+/* styles for header */
+header
+{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: #000;
+	height: 190px;
+}
+
+header img
+{ 
+	margin: 0 auto;
+}
+
+/* styles for navigation */
+nav
+{
+	padding: 1%;
+	margin-bottom: 1%;
+} 
+
+nav ul 
+{
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li 
+{ 
+	font-size: 1.5em;
+	font-family: 'Francois One', sans-serif;
+	border-top: 1px solid #fff;
+} 
+
+nav li:first-child
+{
+	border-top: none;
+}
+
+nav li a 
+{
+	display: block;
+	color: #fff; /*white, rgb(255, 255, 255)*/
+	padding: .5em 1em;
+	text-decoration: none;
+} 
+
+/*Show mobile class, hide tablet-desktop class */
+.mobile
+{ 
+	display: block;
+}
+
+.tablet-desktop
+{ 
+	display: none;
+}
+
+/* styles for main & divs in main*/
+main
+{ 
+	background-color: #fff;
+	padding: 2%;
+	font-size: 1.15em;
+	font-family: 'Roboto Slab', serif;
+} 
+
+.tel-link 
+{ 
+	background-color: #404040; 
+	padding: 2%;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.tel-link a
+{ 
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+}
+
+.hours
+{
+	margin-left: 10%
+}
+
+#weights, #cardio, #training /*id names*/
+{
+	margin: 0 2%;
+} 
+
+.round
+{
+	border-radius: 8px;
+}
+
+#contact
+{
+	text-align: center;
+}
+
+#contact .contact-email-link
+{
+	/*ids begin with # */
+	color: #660; /*#666600*/
+	text-decoration: none;
+}
+
+.action
+{
+	/*classes begin with a period */
+	font-size: 1.35em;
+	color: #660;
+	font-weight: bold;
+}
+
+.external-link
+{
+	color: #660;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.map
+{
+	border: 2px solid #000;
+	width: 95%;
+	height: 50%;
+}
+
+/*styles for footer */
+footer p
+{
+	font-size: .75em;
+	text-align: center;
+	color: #fff;
+	padding: 0 1em;
+} 
+
+footer p a 
+{
+	color: #fff;
+	text-decoration: none;
+} 
+
+
+
+/*
+#excercises
+{
+	clear:left;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid black;
+	background-color: #f2f2f2;
+	padding: 1% 2%;
+} 
+
+#exercises dt
+{
+	font-weight: bold;
+} 
+
+#exercises dd
+{
+	padding: .5% 1% 2% 0;
+}*/
